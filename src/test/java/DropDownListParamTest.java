@@ -6,7 +6,7 @@ import pageObjects.MainPage;
 
 import static org.junit.Assert.assertEquals;
 
-/** Параметризованный тест соответствия текста в выпадающем списке ожидаемому тексту*/
+//Параметризованный тест соответствия текста в выпадающем списке ожидаемому тексту
 @RunWith(Parameterized.class)
 public class DropDownListParamTest extends CommonBaseTest {
 
@@ -14,14 +14,14 @@ public class DropDownListParamTest extends CommonBaseTest {
     private final String answerLocator;
     private final String answerText;
 
-/** Конструктор класса*/
+//Конструктор класса
     public DropDownListParamTest(String questionLocator, String answerLocator, String answerText) {
         this.questionLocator = questionLocator;
         this.answerLocator = answerLocator;
         this.answerText = answerText;
     }
 
-/** Массив с текстом ожидаемых ответов*/
+//Массив с текстом ожидаемых ответов
     @Parameterized.Parameters
     public static Object[][] expectedAnswersParamList() {
         return new Object[][]{
@@ -35,7 +35,7 @@ public class DropDownListParamTest extends CommonBaseTest {
                 {"accordion__heading-7", "accordion__panel-7", "Да, обязательно. Всем самокатов! И Москве, и Московской области."},
         };
     }
-/** Сравнение текста ответа с эталонным текстом*/
+//Сравнение текста ответа с эталонным текстом
     @Test
     public void dropDownListTest() {
         new MainPage(driver)

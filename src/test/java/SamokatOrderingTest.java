@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 public class SamokatOrderingTest extends CommonBaseTest {
 
-//Заказ кнопкой в хэдере
+// Заказ кнопкой в хэдере
     @Test
     public void samokatOrderingByHeaderOrderButton() {
         new MainPage(driver)

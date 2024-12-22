@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 
-//Элементы страницы оформления заказа сайта
+// Элементы страницы оформления заказа сайта
 public class OrderPage {
     private final WebDriver driver;
 

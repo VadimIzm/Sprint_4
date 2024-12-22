@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.Assert.assertEquals;
 
-//Элементы главной страницы сайта
+// Элементы главной страницы сайта
 public class MainPage {
     public MainPage(WebDriver driver) {
         MainPage.driver = driver;

@@ -15,7 +15,7 @@ public class DropDownListTest extends CommonBaseTest {
             "Да, обязательно. Всем самокатов! И Москве, и Московской области."
     };
 
-    //Тест соответствия текста в выпадающем списке
+    //Тест соответствия текста в выпадающем  списке
     @Test
     public void CheckDropDownListText() {
 

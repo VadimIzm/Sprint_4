@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class RentPage {
     WebDriver driver;
 
-    //Локаторы данных страницы "Про аренду"
+//Локаторы данных страницы "Про аренду"
 //Локатор поля даты начала аренды
     private final By rentalDateField = By.xpath(".//input[@placeholder='* Когда привезти самокат']");
     //Локатор поля срока аренды

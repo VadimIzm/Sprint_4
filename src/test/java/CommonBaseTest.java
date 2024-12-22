@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class CommonBaseTest {
     WebDriver driver;
 
-//Выбор браузера для прогона тестов
+//Выбор браузера для прогона тестов_
     @Before
     public void setUp() {
         //ChromeOptions options = new ChromeOptions();
